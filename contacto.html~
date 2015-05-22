@@ -23,7 +23,7 @@
 		      <p class="campo"><input type="text" name="minombre" id="minombre" required></p>
 		
 		      <p class="etiqueta">Email:</p> 
-		      <p class="campo"><input type="email" name="micorreo" id="micorreo" multiple required></p>
+		      <p class="campo"><input type="email" name="micorreo" id="micorreo" multiple required autofocus></p>
 
 		      <p class="etiqueta">Comentarios</p>
 		      <p class="campo"><textarea name="micomentario" id="micomentario" cols="15" rows="4"></textarea></p>
