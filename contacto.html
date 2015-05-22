@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+  <html lang="es">
+  <head>
+    <title>Formularios</title>
+	<meta charset="utf-8">
+		<meta charset="utf-8">
+		<meta name="description" content="Formulario">
+		<meta content="width=device-width, initial-scale=1, minimum-scale=1" name="viewport">
+		<meta name="keywords" content="formulario">
+		<meta name="robots" content="noindex, nofollow">
+		<meta name="googlebot" content="noindex, nofollow">
+		<title>Formulario</title>
+		<link href="movil.css" rel="stylesheet" media="all and (min-width:0px) and (max-width: 480px)" />
+		<link href="tablet.css" rel="stylesheet" media="all and (min-width: 481px) and (max-width: 800px)" />
+		<link href="escritorio.css" rel="stylesheet" media="all and (min-width: 801px)" />	
+    </head>
+  </head>
+  <body>
+    <section>
+      <form action="enviaremail.php" name="contacto" id="miformulario" method="post">
+
+		      <p class="etiqueta">Nombre:</p>
+		      <p class="campo"><input type="text" name="minombre" id="minombre" required></p>
+		
+		      <p class="etiqueta">Email:</p> 
+		      <p class="campo"><input type="email" name="micorreo" id="micorreo" multiple required autofocus></p>
+
+		      <p class="etiqueta">Comentarios</p>
+		      <p class="campo"><textarea name="micomentario" id="micomentario" cols="15" rows="4"></textarea></p>
+
+        <p class="campo"><input type="submit" value="enviar"></p>
+      </form>
+    </section>
+  </body>
+</html>
