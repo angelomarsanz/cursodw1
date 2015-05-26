@@ -12,7 +12,8 @@
 		<title>Formulario</title>
 		<link href="movil.css" rel="stylesheet" media="all and (min-width:0px) and (max-width: 480px)" />
 		<link href="tablet.css" rel="stylesheet" media="all and (min-width: 481px) and (max-width: 800px)" />
-		<link href="escritorio.css" rel="stylesheet" media="all and (min-width: 801px)" />	
+		<link href="escritorio.css" rel="stylesheet" media="all and (min-width: 801px)" />
+		<script src="javascriptcontacto.js"></script>	
     </head>
   </head>
   <body>
@@ -23,10 +24,16 @@
 		      <p class="campo"><input type="text" name="minombre" id="minombre" required></p>
 		
 		      <p class="etiqueta">Email:</p> 
-		      <p class="campo"><input type="email" name="micorreo" id="micorreo" multiple required autofocus></p>
+		      <p class="campo"><input type="email" name="micorreo" id="micorreo" multiple required></p>
+
+		      <p class="etiqueta">Celular:</p> 
+		      <p class="campo"><input type="tel" name="micelular" id="micelular"></p>
+
+		      <p class="etiqueta">Teléfono fijo:</p> 
+		      <p class="campo"><input type="tel" name="mitelefonofijo" id="mitelefonofijo"></p>
 
 		      <p class="etiqueta">Comentarios</p>
-		      <p class="campo"><textarea name="micomentario" id="micomentario" cols="15" rows="4"></textarea></p>
+		      <p class="campo"><textarea name="micomentario" id="micomentario" cols="15" rows="4" required></textarea></p>
 
         <p class="campo"><input type="submit" value="enviar"></p>
       </form>

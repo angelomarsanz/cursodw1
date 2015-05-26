@@ -33,7 +33,7 @@
 		      <p class="campo"><input type="tel" name="mitelefonofijo" id="mitelefonofijo"></p>
 
 		      <p class="etiqueta">Comentarios</p>
-		      <p class="campo"><textarea name="micomentario" id="micomentario" cols="15" rows="4" required></textarea></p>
+		      <p class="campo"><textarea name="micomentario" id="micomentario" cols="15" rows="4"></textarea></p>
 
         <p class="campo"><input type="submit" value="enviar"></p>
       </form>

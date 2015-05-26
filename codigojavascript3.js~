@@ -1,0 +1,23 @@
+function validacion()
+	{
+	if(micelular2.value=='' && mitelefonofijo2.value=='')
+		{
+		micelular2.setCustomValidity('Inserte al menos un número de telefono celular o fijo');
+		micelular2.style.background='#FFDDDD';
+		}
+	else
+		{
+		micelular2.setCustomValidity('');
+		micelular2.style.background='#FFFFFF';
+		}
+	}
+function iniciar() 
+	{
+	micelular2=document.getElementById("micelular");
+	mitelefonofijo2=document.getElementById("mitelefonofijo");
+	micelular2.addEventListener("input", validacion, false);
+	mitelefonofijo2.addEventListener("input", validacion, false);
+	validacion();
+	}
+window.addEventListener("load", iniciar, false);
+
