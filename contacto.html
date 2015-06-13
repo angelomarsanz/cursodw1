@@ -15,8 +15,29 @@
 		<script src="javascriptcontacto.js"></script>	
     	</head>
 	<body>
-		<section>
-			<form action="enviaremail.php" name="contacto" id="miformulario" method="get">
+    		<div id="agrupar">
+			<header id="cabecera">
+				<div id="logopagina">
+					<figure>
+						<img src="logo.jpg">	
+					</figure>
+				</div>
+				<div id="titulopagina">
+					<hgroup>
+						<h1 class="texto2">Restaurant Las Delicias</h1>
+						<h4>¡Una delicia para su paladar!</h4>
+					</hgroup>
+				</div>				
+			</header>
+			<nav id="menu">
+				<ul>
+					<li><a class="opcionmenu" href='index.html'>Inicio</a></li>
+					<li><a class="opcionmenu" href='acercade.html'>Acerca de</a></li>
+					<li><a class="opcionmenu" href='contacto.html'>contacto</a></li>
+				</ul>
+			</nav>	
+			<section>
+				<form action="enviaremail.php" name="contacto" id="miformulario" method="get">
 
 				<p class="etiqueta">Nombre:</p>
 				<p class="campo"><input type="text" name="minombre" id="minombre" required></p>
@@ -38,7 +59,9 @@
 				<p class="campo"><textarea name="micomentario" id="micomentario" cols="15" rows="4" required></textarea></p>
 
 				<p class="campo"><input type="submit" value="enviar"></p>
-			</form>
-		</section>
-  	</body>
+				
+				</form>
+			</section>
+		</div>  	
+	</body>
 </html>

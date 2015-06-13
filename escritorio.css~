@@ -306,6 +306,10 @@ iframe
 max-width: 100%;
 }
 
-
+.texto3
+{
+font: italic 14px verdana, sans-serif;
+color: red;
+}
 
 
