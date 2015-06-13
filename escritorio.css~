@@ -94,6 +94,7 @@ color: blue;
 figcaption
 {
 font: italic 14px verdana, sans-serif;
+color: red;
 }
 
 p
@@ -295,6 +296,15 @@ float: left;
 width: 80%;
 }
 
+video
+{
+max-width: 100%;
+}
+
+iframe
+{
+max-width: 100%;
+}
 
 
 
