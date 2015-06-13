@@ -17,7 +17,6 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup
 #cabecera
 {
  padding: 1% 0;
- background: #fffbb9;
  }
 
 #menu
@@ -42,7 +41,7 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup
 {
  margin: 1% 0%;
  padding: 1% 0%;
- background: #CCCCCC; 
+ background: #fffbb9; 
  }
 
 #pie
@@ -269,7 +268,15 @@ width: 33.333%;
     	}
 }
 
+#logopagina
+{
 
+}
+
+#titulopagina
+{
+
+}
 
 
 

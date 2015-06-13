@@ -2,12 +2,12 @@
   <html lang="es">
     <head>
 		<meta charset="utf-8">
-		<meta name="description" content="Ejercicio 4 HTML5 y CSS3">
+		<meta name="description" content="Restaurant Las Delicias">
 		<meta content="width=device-width, initial-scale=1, minimum-scale=1" name="viewport">
-		<meta name="keywords" content="HTML5, CSS3">
+		<meta name="keywords" content="Restaurant Las Delicias, ricas comidas">
 		<meta name="robots" content="noindex, nofollow">
 		<meta name="googlebot" content="noindex, nofollow">
-		<title>Ejercicio 4 de HTML5 y CSS3</title>
+		<title>Restaurant Las Delicias</title>
 		<link href="movil.css" rel="stylesheet" media="all and (min-width:0px) and (max-width: 480px)" />
 		<link href="tablet.css" rel="stylesheet" media="all and (min-width: 481px) and (max-width: 800px)" />
 		<link href="escritorio.css" rel="stylesheet" media="all and (min-width: 801px)" />	
@@ -15,13 +15,22 @@
     <body>
     	<div id="agrupar">
 			<header id="cabecera">
-				<h1>Este es el título principal de mi primer sitio web<h1>
+				<div id="logopagina">
+					<figure>
+						<img src="logo.jpg">	
+					</figure>
+				</div>
+				<div id="titulopagina">
+					<hgroup>
+						<h1 class="texto2">Restaurant Las Delicias</h1>
+						<h4>¡Una delicia para su paladar!</h4>
+					</hgroup>
+				</div>				
 			</header>
 			<nav id="menu">
 				<ul>
-					<li>Inicio</li>
-					<li>Fotos</li>
-					<li>Vídeos</li>
+					<li><a class="opcionmenu" href='index.html'>Inicio</a></li>
+					<li><a class="opcionmenu" href='acercade.html'>Acerca de</a></li>
 					<li><a class="opcionmenu" href='contacto.html'>contacto</a></li>
 				</ul>
 			</nav>	
@@ -30,28 +39,69 @@
 		                <div id="slider-box">
 		                    <div class="slider-element">
 		                        <article>
-						<img class="modeloimg" src="papas.jpg">					    
+						<header>
+							<time datetime="2015-06-12T10:12:12" pubdate>Publicado el 12-06-2015 10:12:12</time>
+						</header>
+						<figure>
+							<img class="modeloimg" src="papas.jpg">	
+							<figcaption>
+								¡Qué papas tan deliciosas!
+							</figcaption>
+						</figure>
+						<footer>
+							<address>
+								<small><a href="http://www.pixabay.com">Fotografía de www.pixabay.com</a></small>
+							</address>
+						</footer>			    
 		                        </article>
 		                    </div>
 		                    <div class="slider-element">
 		                        <article>
-						<img class="modeloimg" src="empanadas.jpg">					    
+						<header>
+							<time datetime="2015-06-12T10:12:12" pubdate>Publicado el 12-06-2015 10:12:12</time>
+						</header>
+						<figure>
+							<img class="modeloimg" src="empanadas.jpg">	
+							<figcaption>
+								¡Se ven ricas esas empanadas!
+							</figcaption>
+						</figure>
+						<footer>
+							<address>
+								<small><a href="http://www.pixabay.com">Fotografía de www.pixabay.com</a></small>
+							</address>
+						</footer>			    
 		                        </article>
 		                    </div>
 		                    <div class="slider-element">
 		                        <article>
-						<img class="modeloimg" src="parrilla.jpg">					    
-		                        </article>                            
+						<header>
+							<time datetime="2015-06-12T10:12:12" pubdate>Publicado el 12-06-2015 10:12:12</time>
+						</header>
+						<figure>
+							<img class="modeloimg" src="parrilla.jpg">	
+							<figcaption>
+								¡Me quiero comer esa parrilla!
+							</figcaption>
+						</figure>
+						<footer>
+							<address>
+								<small><a href="http://www.pixabay.com">Fotografía de www.pixabay.com</a></small>
+							</address>
+						</footer>			    
+		                        </article>
 		                    </div>
 		                </div>
 		            </div>                    
 			</section>
 			<aside id="columna">
-				<h3>Mensaje Nro. 1</h3>
-				<h3>Mensaje Nro. 2</h3>
+				<span>Este es el <mark>texto</mark> de mi primer mensaje. Me gusta la película <cite>Titanic</cite></span> 
+				<address>
+					<a href="http://www.notitarde.com">Notitarde</a>
+				</address>
 			</aside>
 			<footer id="pie">
-				<small>Derechos reservados</small>				
+				<small>Autor:<mark> Curso de diseño web</mark><cite> - Derechos reservados -</cite></small>
 			</footer>
 		</div>
 	</body>
