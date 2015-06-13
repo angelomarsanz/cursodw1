@@ -19,7 +19,6 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup
 {
  float: left;
  width: 100%;
- background: #fffbb9;
  }
 
 #menu
@@ -52,7 +51,7 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup
  margin: 1%;
  padding: 1%;
  border: 1px solid #999999;
- background: #CCCCCC; 
+ background: #fffbb9; 
  }
 
 #pie
@@ -95,6 +94,7 @@ color: blue;
 figcaption
 {
 font: italic 14px verdana, sans-serif;
+color: red;
 }
 
 p
@@ -296,7 +296,31 @@ float: left;
 width: 80%;
 }
 
+audio
+{
+max-width: 100%;
+}
 
+video
+{
+max-width: 100%;
+}
 
+iframe
+{
+max-width: 100%;
+}
+
+.texto3
+{
+font: italic 14px verdana, sans-serif;
+color: red;
+}
+
+.texto4
+{
+font: italic 20px verdana, sans-serif;
+color: blue;
+}
 
 

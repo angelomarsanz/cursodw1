@@ -296,6 +296,11 @@ float: left;
 width: 80%;
 }
 
+audio
+{
+max-width: 100%;
+}
+
 video
 {
 max-width: 100%;
