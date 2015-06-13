@@ -312,4 +312,10 @@ font: italic 14px verdana, sans-serif;
 color: red;
 }
 
+.texto4
+{
+font: italic 20px verdana, sans-serif;
+color: blue;
+}
+
 
