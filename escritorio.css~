@@ -172,12 +172,6 @@ margin: auto;
 -webkit-animation: autoSlider 15s infinite linear;
 animation: autoSlider 15s infinite linear;
 
--webkit-transition: all 0.75s ease;
--moz-transition: all 0.75s ease;
--ms-transition: all 0.75s ease;
--o-transition: all 0.75s ease;
-transition: all 0.75s ease;
-
 height: 100%;
 width: 300%;
 }
